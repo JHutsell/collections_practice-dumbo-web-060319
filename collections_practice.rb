@@ -14,3 +14,19 @@ end
 def swap_elements(arr)
   arr[1], arr[2] = arr[2], arr[1]
 end
+
+def reverse_array(arr)
+  arr.reverse
+end
+
+def kesha_maker(arr)
+  arr[2] = "$"
+end
+
+def find_a(arr)
+  arr.select { |ele| ele[0] == "a" }
+end
+
+def sum_array(arr)
+  arr.sum
+end
