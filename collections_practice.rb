@@ -33,6 +33,6 @@ end
 
 def add_s(arr)
   arr.map.with_index do |ele, idx|
-    ele + "s" if idx != 1 
+    ele + "s" unless idx == 1 
   end
 end
