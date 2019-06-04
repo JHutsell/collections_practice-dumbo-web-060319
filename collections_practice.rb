@@ -30,3 +30,9 @@ end
 def sum_array(arr)
   arr.sum
 end
+
+def add_s(arr)
+  arr.map.with_index do |ele, idx|
+    ele + "s" if idx != 1 
+  end
+end
