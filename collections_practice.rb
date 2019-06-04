@@ -36,6 +36,6 @@ end
 
 def add_s(arr)
   arr.map do |ele|
-    
+    if arr[]
   end
 end
