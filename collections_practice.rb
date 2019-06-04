@@ -33,7 +33,5 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  arr.map.with_index do |ele, idx|
-    ele + "s" unless idx == 1 
-  end
+  arr.map.with_index { |ele, idx| ele + "s" unless idx == 1 }
 end
